@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(95, 95, 95);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+#clock {
+  font-size: 60px;
+  color: #00ffcc;
+  letter-spacing: 6px;
+  text-shadow: 0 0 50px;
+}
